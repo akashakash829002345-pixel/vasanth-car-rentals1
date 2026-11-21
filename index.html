@@ -4,241 +4,335 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F6F4EF">
+  <meta name="description" content="Vasanth Car Rentals, Bapatla. Self-drive cars, driver services and outstation travel.">
 
-  <title>Vasanth Car Rentals | Bapatla</title>
-  <meta name="description" content="Book premium self-drive cars and driver services with Vasanth Car Rentals in Bapatla.">
-  <meta name="theme-color" content="#080808">
+  <title>Vasanth Car Rentals | Premium Travel in Bapatla</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 
 <body>
 
 <header class="header">
-  <a href="#home" class="logo">VASANTH <span>CAR RENTALS</span></a>
+  <a class="brand" href="#home">
+    <span class="brand-name">VASANTH</span>
+    <span class="brand-sub">CAR RENTALS</span>
+  </a>
 
-  <nav>
+  <nav class="navigation">
     <a href="#home">Home</a>
     <a href="#services">Services</a>
-    <a href="#cars">Our Cars</a>
+    <a href="#cars">Our Fleet</a>
     <a href="#booking">Booking</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <a class="nav-btn" href="#booking">Book Now</a>
+  <a href="#booking" class="nav-button">Book a Car</a>
 </header>
 
 <main>
 
-<section class="hero" id="home">
-  <div class="hero-content">
-    <p class="tagline">PREMIUM CAR RENTAL SERVICE</p>
-    <h1>Your Journey.<br><span>Your Comfort.</span></h1>
-    <p class="hero-text">
-      Experience comfortable and reliable travel with Vasanth Car Rentals.
-      Self-drive and driver services available in Bapatla.
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <span class="eyebrow">PREMIUM CAR RENTAL · BAPATLA</span>
+
+      <h1>Every Journey<br>Deserves <span>Comfort.</span></h1>
+
+      <p>
+        Discover comfortable and convenient travel with Vasanth Car Rentals.
+        Choose self-drive freedom or travel with a professional driver.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#cars" class="button button-gold">Explore Our Fleet</a>
+        <a href="https://wa.me/919573373015" target="_blank" rel="noopener" class="button button-outline">WhatsApp Us</a>
+      </div>
+
+      <div class="hero-location">Bapatla, Andhra Pradesh, India</div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro section">
+    <span class="eyebrow">WELCOME TO VASANTH</span>
+    <h2>Travel Better.<br>Arrive Happier.</h2>
+    <p>
+      From everyday travel to memorable family holidays,
+      we make your journey simple, comfortable and convenient.
     </p>
+  </section>
 
-    <div class="hero-buttons">
-      <a href="#booking" class="gold-btn">Book Your Car</a>
-      <a href="https://wa.me/919573373015" class="outline-btn" target="_blank" rel="noopener">WhatsApp Us</a>
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="section-heading">
+      <span class="eyebrow">WHAT WE OFFER</span>
+      <h2>Our Services</h2>
+      <p>Flexible travel solutions for every occasion.</p>
     </div>
 
-    <p class="location">📍 Bapatla, Andhra Pradesh</p>
-  </div>
-</section>
+    <div class="service-grid">
 
-<section class="intro">
-  <p class="tagline">WELCOME TO VASANTH CAR RENTALS</p>
-  <h2>Travel in Style. Travel with Comfort.</h2>
-  <p>
-    Whether it is a family trip, business journey, or outstation travel,
-    we help make your journey comfortable and convenient.
-  </p>
-</section>
+      <article class="service-card">
+        <div class="service-icon">01</div>
+        <h3>Self-Drive Rentals</h3>
+        <p>Enjoy the freedom to drive and explore at your own pace.</p>
+      </article>
 
-<section class="services" id="services">
-  <div class="section-heading">
-    <p class="tagline">WHAT WE OFFER</p>
-    <h2>Our Services</h2>
-  </div>
+      <article class="service-card">
+        <div class="service-icon">02</div>
+        <h3>Cars with Drivers</h3>
+        <p>Relax and enjoy your journey with a driver service.</p>
+      </article>
 
-  <div class="service-grid">
+      <article class="service-card">
+        <div class="service-icon">03</div>
+        <h3>Outstation Travel</h3>
+        <p>Comfortable travel for family trips and long-distance journeys.</p>
+      </article>
 
-    <div class="service-card">
-      <div class="service-icon">🚘</div>
-      <h3>Self Drive Cars</h3>
-      <p>Enjoy the freedom of driving at your own pace.</p>
+    </div>
+  </section>
+
+  <!-- CARS -->
+  <section class="fleet section" id="cars">
+    <div class="section-heading">
+      <span class="eyebrow">OUR COLLECTION</span>
+      <h2>Choose Your Ride</h2>
+      <p>Explore our available car models.</p>
     </div>
 
-    <div class="service-card">
-      <div class="service-icon">🚖</div>
-      <h3>Car with Driver</h3>
-      <p>Relax and enjoy your journey with a driver.</p>
+    <div class="car-grid">
+
+      <article class="car-card">
+        <div class="car-image">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/2026%20Suzuki%20Dzire%20GL%20in%20Arctic%20White%20Pearl%2001.jpg"
+            alt="Maruti Suzuki Dzire"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">DZIRE</div>
+        </div>
+        <div class="car-info">
+          <span class="car-category">COMFORT SEDAN</span>
+          <h3>Maruti Suzuki Dzire</h3>
+          <p>Ideal for comfortable city and highway journeys.</p>
+          <a href="#booking" class="car-link" data-car="Maruti Suzuki Dzire">Enquire Now <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-image">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20Innova%20Crysta.jpg"
+            alt="Toyota Innova Crysta"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">INNOVA CRYSTA</div>
+        </div>
+        <div class="car-info">
+          <span class="car-category">PREMIUM MUV</span>
+          <h3>Toyota Innova Crysta</h3>
+          <p>Spacious comfort for family and group travel.</p>
+          <a href="#booking" class="car-link" data-car="Toyota Innova Crysta">Enquire Now <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-image">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Maruti%20Suzuki%20Ertiga%283%29.jpg"
+            alt="Maruti Suzuki Ertiga"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">ERTIGA</div>
+        </div>
+        <div class="car-info">
+          <span class="car-category">FAMILY MUV</span>
+          <h3>Maruti Suzuki Ertiga</h3>
+          <p>Practical space and comfort for family journeys.</p>
+          <a href="#booking" class="car-link" data-car="Maruti Suzuki Ertiga">Enquire Now <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-image">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20Etios%2C%20by%20UNICAB.jpg"
+            alt="Toyota Etios"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">TOYOTA ETIOS</div>
+        </div>
+        <div class="car-info">
+          <span class="car-category">COMFORT SEDAN</span>
+          <h3>Toyota Etios</h3>
+          <p>A practical choice for everyday and outstation travel.</p>
+          <a href="#booking" class="car-link" data-car="Toyota Etios">Enquire Now <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="car-card">
+        <div class="car-image">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:FilePath/Kia%20Carens%202024%20Model.jpg"
+            alt="Kia Carens"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">KIA CARENS</div>
+        </div>
+        <div class="car-info">
+          <span class="car-category">PREMIUM FAMILY CAR</span>
+          <h3>Kia Carens</h3>
+          <p>Enjoy a comfortable journey with family and friends.</p>
+          <a href="#booking" class="car-link" data-car="Kia Carens">Enquire Now <span>→</span></a>
+        </div>
+      </article>
+
     </div>
 
-    <div class="service-card">
-      <div class="service-icon">🛣️</div>
-      <h3>Outstation Trips</h3>
-      <p>Convenient travel for long-distance journeys.</p>
+    <p class="fleet-note">
+      Vehicle photographs are model references and may differ from the actual rental vehicles.
+    </p>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking section" id="booking">
+    <div class="booking-layout">
+
+      <div class="booking-copy">
+        <span class="eyebrow">RESERVE YOUR JOURNEY</span>
+        <h2>Let's Plan Your<br><span>Next Trip.</span></h2>
+        <p>
+          Share your travel details. Our team can discuss availability
+          and pricing with you on WhatsApp.
+        </p>
+
+        <div class="booking-contact">
+          <span>CALL OR WHATSAPP</span>
+          <a href="tel:+919573373015">+91 95733 73015</a>
+        </div>
+      </div>
+
+      <form id="bookingForm" class="booking-form">
+
+        <h3>Booking Enquiry</h3>
+        <p class="form-subtitle">Please enter your journey details.</p>
+
+        <div class="form-grid">
+
+          <div class="form-field">
+            <label for="name">Full Name *</label>
+            <input id="name" type="text" placeholder="Your name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone Number *</label>
+            <input id="phone" type="tel" placeholder="10-digit number" pattern="[0-9]{10}" maxlength="10" required>
+          </div>
+
+          <div class="form-field">
+            <label for="car">Select Car *</label>
+            <select id="car" required>
+              <option value="">Choose a car</option>
+              <option>Maruti Suzuki Dzire</option>
+              <option>Toyota Innova Crysta</option>
+              <option>Maruti Suzuki Ertiga</option>
+              <option>Toyota Etios</option>
+              <option>Kia Carens</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="service">Service Type *</label>
+            <select id="service" required>
+              <option value="">Choose service</option>
+              <option>Self Drive</option>
+              <option>Car with Driver</option>
+              <option>Outstation Trip</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="pickup">Pickup Location *</label>
+            <input id="pickup" type="text" placeholder="Pickup location" required>
+          </div>
+
+          <div class="form-field">
+            <label for="destination">Destination *</label>
+            <input id="destination" type="text" placeholder="Destination" required>
+          </div>
+
+          <div class="form-field full-field">
+            <label for="date">Journey Date *</label>
+            <input id="date" type="date" required>
+          </div>
+
+          <div class="form-field full-field">
+            <label for="message">Additional Details</label>
+            <textarea id="message" rows="3" placeholder="Passengers or other requirements"></textarea>
+          </div>
+
+        </div>
+
+        <button class="button button-gold submit-button" type="submit">
+          Send Enquiry on WhatsApp →
+        </button>
+
+        <p class="form-note">Your enquiry will open in WhatsApp for you to send.</p>
+
+      </form>
     </div>
+  </section>
 
-  </div>
-</section>
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <span class="eyebrow">WE ARE HERE TO HELP</span>
+    <h2>Ready for the Road?</h2>
+    <p>Contact Vasanth Car Rentals for your next journey.</p>
 
-<section class="cars" id="cars">
-  <div class="section-heading">
-    <p class="tagline">OUR FLEET</p>
-    <h2>Explore Our Cars</h2>
-    <p>Choose the right car for your journey.</p>
-  </div>
-
-  <div class="car-grid">
-
-    <article class="car-card">
-      <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202501/dzire-1-000km-304345415-16x9_0.jpg?size=690:388" alt="Maruti Suzuki Dzire" loading="lazy">
-      <div class="car-info">
-        <h3>Maruti Suzuki Dzire</h3>
-        <p>Comfortable sedan for city and outstation trips.</p>
-        <a href="#booking" class="gold-btn">Book Now</a>
-      </div>
-    </article>
-
-    <article class="car-card">
-      <img src="https://cdn-s3.autocarindia.com/Toyota/innova-crysta/_DSC1250.JPG" alt="Toyota Innova Crysta" loading="lazy">
-      <div class="car-info">
-        <h3>Toyota Innova Crysta</h3>
-        <p>Premium comfort for family and group travel.</p>
-        <a href="#booking" class="gold-btn">Book Now</a>
-      </div>
-    </article>
-
-    <article class="car-card">
-      <img src="https://media.mahindrafirstchoice.com/live_web_images/usedcarsimg/mfc/522/557489/right_side_view-20230223103831.jpg" alt="Maruti Suzuki Ertiga" loading="lazy">
-      <div class="car-info">
-        <h3>Maruti Suzuki Ertiga</h3>
-        <p>Spacious and comfortable family travel.</p>
-        <a href="#booking" class="gold-btn">Book Now</a>
-      </div>
-    </article>
-
-    <article class="car-card">
-      <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?c=1&h=795&n=https%3A%2F%2Fcdni.autocarindia.com%2FExtraImages%2F20111003110854_Toyota-Etios-Diesel-1.jpg&w=1200" alt="Toyota Etios" loading="lazy">
-      <div class="car-info">
-        <h3>Toyota Etios</h3>
-        <p>Practical and comfortable everyday travel.</p>
-        <a href="#booking" class="gold-btn">Book Now</a>
-      </div>
-    </article>
-
-    <article class="car-card">
-      <img src="https://cdn-s3.autocarindia.com/Kia/Carens/_BE00525.JPG" alt="Kia Carens" loading="lazy">
-      <div class="car-info">
-        <h3>Kia Carens</h3>
-        <p>Premium family comfort for your journey.</p>
-        <a href="#booking" class="gold-btn">Book Now</a>
-      </div>
-    </article>
-
-  </div>
-</section>
-
-<section class="booking" id="booking">
-  <div class="section-heading">
-    <p class="tagline">RESERVE YOUR RIDE</p>
-    <h2>Book Your Car</h2>
-    <p>Fill in your details and send your booking request through WhatsApp.</p>
-  </div>
-
-  <form id="bookingForm">
-
-    <div class="form-grid">
+    <div class="contact-items">
       <div>
-        <label for="name">Your Name *</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
+        <span>LOCATION</span>
+        <strong>Bapatla, Andhra Pradesh</strong>
       </div>
 
       <div>
-        <label for="phone">Phone Number *</label>
-        <input type="tel" id="phone" placeholder="Enter phone number" pattern="[0-9]{10}" maxlength="10" required>
+        <span>PHONE</span>
+        <strong><a href="tel:+919573373015">9573373015</a></strong>
       </div>
 
       <div>
-        <label for="car">Select Car *</label>
-        <select id="car" required>
-          <option value="">Choose a car</option>
-          <option>Maruti Suzuki Dzire</option>
-          <option>Toyota Innova Crysta</option>
-          <option>Maruti Suzuki Ertiga</option>
-          <option>Toyota Etios</option>
-          <option>Kia Carens</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="service">Service Type *</label>
-        <select id="service" required>
-          <option value="">Choose service</option>
-          <option>Self Drive</option>
-          <option>Car with Driver</option>
-          <option>Outstation Trip</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="pickup">Pickup Location *</label>
-        <input type="text" id="pickup" placeholder="Pickup location" required>
-      </div>
-
-      <div>
-        <label for="destination">Destination *</label>
-        <input type="text" id="destination" placeholder="Where do you want to go?" required>
-      </div>
-
-      <div>
-        <label for="date">Journey Date *</label>
-        <input type="date" id="date" required>
-      </div>
-
-      <div>
-        <label for="message">Additional Details</label>
-        <input type="text" id="message" placeholder="Number of passengers or other details">
+        <span>WHATSAPP</span>
+        <strong><a href="https://wa.me/919573373015" target="_blank" rel="noopener">Chat With Us</a></strong>
       </div>
     </div>
 
-    <button type="submit" class="gold-btn submit-btn">Send Booking Request on WhatsApp</button>
-
-  </form>
-</section>
-
-<section class="contact" id="contact">
-  <p class="tagline">GET IN TOUCH</p>
-  <h2>Let's Plan Your Journey</h2>
-  <p>Contact Vasanth Car Rentals for bookings and enquiries.</p>
-
-  <div class="contact-details">
-    <p>📍 Bapatla, Andhra Pradesh, India</p>
-    <p>📞 <a href="tel:+919573373015">9573373015</a></p>
-    <p>💬 <a href="https://wa.me/919573373015" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
-  </div>
-
-  <a href="https://wa.me/919573373015" class="gold-btn" target="_blank" rel="noopener">Contact Us</a>
-</section>
+    <a href="https://wa.me/919573373015" class="button button-gold" target="_blank" rel="noopener">Contact Vasanth</a>
+  </section>
 
 </main>
 
-<footer>
-  <a href="#home" class="logo">VASANTH <span>CAR RENTALS</span></a>
-  <p>Premium Car Rental Services in Bapatla</p>
-  <p>© <span id="year"></span> Vasanth Car Rentals. All Rights Reserved.</p>
+<footer class="footer">
+  <a class="brand footer-brand" href="#home">
+    <span class="brand-name">VASANTH</span>
+    <span class="brand-sub">CAR RENTALS</span>
+  </a>
+
+  <p>Comfortable journeys begin here.</p>
+  <p class="copyright">© <span id="year"></span> Vasanth Car Rentals. All rights reserved.</p>
 </footer>
 
-<a class="whatsapp-float" href="https://wa.me/919573373015" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏</a>
+<a class="whatsapp-float" href="https://wa.me/919573373015" target="_blank" rel="noopener" aria-label="WhatsApp">W</a>
 
-<script src="script.js"></script>
+<script src="script.js?v=4"></script>
 </body>
 </html>
